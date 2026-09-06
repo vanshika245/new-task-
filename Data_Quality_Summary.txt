@@ -1,0 +1,36 @@
+DATA QUALITY AND EXPLORATORY ANALYSIS SUMMARY
+
+Dataset: Customer Churn Sample
+Rows: 15
+Columns: 11
+
+1. DATA PROFILE
+Columns checked: CustomerID, Gender, Age, TenureMonths, SubscriptionType,
+MonthlyCharges, TotalCharges, ContractType, SupportTickets, PaymentMethod, Churn.
+
+2. DATA QUALITY CHECKS
+Missing values: 0
+Duplicate rows: 0
+Data types: Numeric fields are stored as numeric values; categorical fields are text.
+Outliers: No outliers detected using the IQR method for Age, TenureMonths,
+MonthlyCharges, TotalCharges, and SupportTickets.
+
+3. CLEANING DECISIONS
+- No missing values required treatment.
+- No duplicate rows required removal.
+- Original numeric and categorical values were retained.
+- A cleaned dataset was created as an analysis-ready copy.
+
+4. EXPLORATORY FINDINGS
+- Total customers: 15
+- Churned customers: 7
+- Non-churned customers: 8
+- Churn rate: 46.67%
+- Average age: 39.07
+- Average tenure: 18.80 months
+- Average monthly charges: 84.66
+- Average support tickets: 2.53
+
+CONCLUSION
+The supplied dataset passed the basic data-quality checks and is suitable for
+further analysis and dashboard development.
